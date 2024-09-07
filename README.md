@@ -64,4 +64,4 @@ Se você quiser contribuir para este projeto, siga estas etapas:
 
 ## Agradecimentos
 
-- Agradecimentos ao [Open CNPJ](https://cnpja.com//) pela API pública que fornece os dados do CNPJ.
+- Agradecimentos ao [CNPJA](https://cnpja.com//) pela API pública que fornece os dados do CNPJ.
