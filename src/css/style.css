@@ -1,0 +1,10 @@
+body{
+    height: 600px;
+    width: 800px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.oculto{
+    display: none;
+}

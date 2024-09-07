@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta CNPJ</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="shortcut icon" href="CNPJ.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container p-3 ">
+      <h1>Consulta CNPJ</h1>
+        <form class="mt-3">
+            <div class="mb-3">
+              <label for="cnpj" class="form-label">CNPJ</label>
+              <input type="text" class="form-control" id="cnpj" aria-describedby="cnpjHelp">
+              <div id="cnpjHelp" class="form-text">Digite o CNPJ no formato 00.000.000/0000-00 ou 00000000000000000.</div>
+            </div>
+            <div class="m-3 flex">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+              <span id="message" class="m-3 alert"></span>
+            </div>
+            
+            <div id="infos" class="container mt-3 oculto">
+                <div class="mb-3">
+                    <label for="endereco" class="form-label">Endereço</label>
+                    <input type="text" class="form-control" id="endereco" disabled>
+                  </div>
+                  <div class="mb-3">
+                    <label for="ie" class="form-label">Incrição estadual</label>
+                    <input type="text" class="form-control" id="ie" disabled>
+                  </div>
+                  <div class="mb-3">
+                    <label for="situacao" class="form-label">Situação</label>
+                    <input type="text" class="form-control" id="situacao" disabled>
+                  </div>
+                  <div class="mb-3">
+                    <label for="nomeFantasia" class="form-label">Nome Fantasia</label>
+                    <input type="text" class="form-control" id="nomeFantasia" disabled>
+                  </div>
+                  <div class="mb-3">
+                    <label for="nomeEmpresa" class="form-label">Nome da empresa</label>
+                    <input type="text" class="form-control" id="nomeEmpresa" disabled>
+                  </div>
+
+            </div>
+        </form>
+    </div>
+    <script src="./src/js/popup.js"></script>
+    <script src="./src/js/injectBootStrap.js" defer></script>
+</body>
+</html>

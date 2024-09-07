@@ -1,0 +1,20 @@
+{
+  "name": "Consulta CNPJ",
+  "description": "Uma extensão para buscar dados a partir de um CNPJ",
+  "version": "1.0",
+  "author": "Bruno de Andrade Dinis (Brinu)",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "form.html",
+    "default_icon": "CNPJ.png"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "icons":{
+    "16":  "CNPJ.png",
+    "48": "CNPJ.png",
+    "128": "CNPJ.png"
+  }
+}
