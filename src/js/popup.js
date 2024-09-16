@@ -34,12 +34,12 @@ document.addEventListener('DOMContentLoaded', () => {
       // Colocando condição de validação caso esteja ou não ativo
       const status = inscricaoEstadual.length === 0
         ? dados.status.text
-        : inscricaoEstadual.map((item, i) => `${i + 1}º - ${item.enabled ? "Ativo" : "Não Habilitado"}`).join('\n');
+        : inscricaoEstadual.map((item, i) => `${i + 1}º - ${item.enabled ? "Ativo " : "Não Habilitado "}`).join('\n');
 
       endereco.value = `${rua}, ${numero}, ${bairro}, ${cidade} - ${estado} - CEP: ${cep}`;
       inscricao.value = inscricaoEstadual.length === 0
         ? "Isento"
-        : inscricaoEstadual.map((item, i) => `${i + 1}º - ${item.number} | ${item.state}`).join('\n');
+        : inscricaoEstadual.map((item, i) => `${i + 1}º - ${item.number} | ${item.state} `).join('\n');
 
       situacao.value = status;
       nomeFantasia.value = fantasia;
